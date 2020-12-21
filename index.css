@@ -1,0 +1,110 @@
+body{
+    background-color:  #333;
+    
+}
+
+header{
+    position: absolute;
+    background-color: #FFFF33;
+    width: 940px;
+    margin: 20px;
+    top: 20px;
+    left: 17%;
+
+}
+
+.title{
+    display: inline-block;
+    margin: 20px;
+    padding: 0 0 0 32%;
+    font-size: 32px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+
+   
+}
+
+.title h1{
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    width: 940px;
+    margin: 5% auto;
+    left: 18%;
+    top: 12%;
+
+}
+
+.text{
+    vertical-align: top; 
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid #FFFF33;
+    border-radius: 20px;
+    margin: 10%; 
+    padding: 30px 10px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+  
+}
+
+.paragraph02{
+    margin-top: 20px;
+}
+
+.button{
+    position: absolute;
+    vertical-align: top;
+    left: 35%;
+    top: 100%;
+    width: 250px;
+    margin: 20px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border: 3px solid orange;
+    border-radius: 20px;
+    
+}
+
+.button:hover {
+    border-color: #ff0303;
+    background-color: orangered;
+}
+
+.button a{
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.button a:hover{
+    color: black;
+}
+    
+    
+
+
+footer{
+    position: absolute;
+    left: 32%;
+    top: 120%;
+    margin: 10%; 
+    padding: 30px 10px;
+    
+}
+
+.text_copyright{
+    
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 0 0 15px 0;
+    color: white;
+}

@@ -1,0 +1,119 @@
+body{
+    background-color:  #333;
+    
+}
+
+header{
+    position: absolute;
+    background-color: #FFFF33;
+    width: 940px;
+    margin: 20px;
+    top: 20px;
+    left: 17%;
+
+}
+
+.title{
+    display: inline-block;
+    margin: 20px;
+    padding: 0 0 0 20%;
+    font-size: 32px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+
+   
+}
+
+.title h1{
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    width: 940px;
+    margin: 5% auto;
+    left: 18%;
+    top: 12%;
+
+}
+
+.text{
+    vertical-align: top; 
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid #FFFF33;
+    border-radius: 20px;
+    margin: 10%; 
+    padding: 30px 10px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+  
+}
+
+.paragraph02{
+    padding-top: 20px;
+}
+
+
+
+.information{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    left: 32%;
+    top: 100%;
+    
+}
+
+.descriptionInformation{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    left: 18%;
+    top: 81%;
+    font-size: 20px;
+
+}
+
+
+.nameInput{
+    display: inline-block;
+    width: 150px;
+    margin-left: 22px;
+    left: 18%;
+    top: 82%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+button{
+    margin-top: 10px;
+    margin-left: 63px;
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    left: 29.5%;
+    top: 120%;
+    margin: 10%; 
+    padding: 30px 10px;
+    
+}
+
+.text_copyright{
+    
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 0 0 15px 0;
+    color: white;
+}
